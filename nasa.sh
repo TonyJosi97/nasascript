@@ -139,7 +139,9 @@ else
     echo
 fi
 echo 'Finished.'
+
 tail -n 500 script.log > newLogfile
 rm script.log
 mv newLogfile script.log
+
 echo
