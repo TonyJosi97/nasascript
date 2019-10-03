@@ -93,6 +93,17 @@ scriptCore() {
         rm credit3.txt
     fi
 
+    if [ "$3" == "" ]; then
+        echo 
+    else
+        imageNameJPG=${3}'.jpg'
+        for file in *.jpg
+        do
+        mv "$file" ${imageNameJPG} 2>>../script.log
+        done
+    fi
+
+
     mv extract4.txt explanation.txt
 
     rm -rf apod.nasa.gov
@@ -110,17 +121,21 @@ scriptCore() {
 
 echo
 echo 'Connecting to nasa.gov...'
-if [ "$1" == "d" ]; then
+if [ "$1" == "-d" -a "$3" == "-n" ]; then
+    scriptCore $2 _ $4
+elif [ "$1" == "-d" ]; then
     scriptCore $2 _
 elif [ "$1" != "" ]; then
     scriptCore $1
 else
     echo
     echo "HELP:
-        sh nasa.sh date[ in yyyy-mm--dd format ] --> Downloads image of the day
-        sh nasa.sh d date[ in yyyy-mm--dd format ] --> Downloads the title, explanation text and credits
-        sh nasa.sh r date1[ in yyyy-mm--dd format ] date2[ in yyyy-mm--dd format ] --> Download all images 
-        posted between the two dates [MAX = 10 days]"
+        # sh nasa.sh date[ in yyyy-mm--dd format ] --> Downloads image of the given date
+        # sh nasa.sh -d date[ in yyyy-mm--dd format ] --> Downloads the title, explanation text and credits
+        # sh nasa.sh -d date[ in yyyy-mm--dd format ] -n [ name ] --> Downloads the title, explanation text 
+            and credits, and saves the image in the given [ name ]
+        # sh nasa.sh -r date1[ in yyyy-mm--dd format ] date2[ in yyyy-mm--dd format ] --> Download all images 
+            posted between the two dates [MAX = 10 days]"
     echo
 fi
 echo 'Finished.'
