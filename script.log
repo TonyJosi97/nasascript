@@ -3969,3 +3969,105 @@ ap190206.html:118: HTML parser error : htmlParseEntityRef: no name
 ap190206.html:129: HTML parser error : htmlParseEntityRef: no name
 <br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
         ^
+--2019-10-04 00:17:45--  https://apod.nasa.gov/apod/ap190207.html
+Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘apod.nasa.gov/apod/ap190207.html’
+
+     0K ....                                                   7.38M=0.001s
+
+2019-10-04 00:17:47 (7.38 MB/s) - ‘apod.nasa.gov/apod/ap190207.html’ saved [4799]
+
+Loading robots.txt; please ignore errors.
+--2019-10-04 00:17:47--  https://dap.digitalgov.gov/robots.txt
+Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 13.249.210.117, 13.249.210.107, 13.249.210.12, ...
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.117|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-10-04 00:17:48 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2019-10-04 00:17:48--  https://apod.nasa.gov/robots.txt
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23 [text/plain]
+Saving to: ‘apod.nasa.gov/robots.txt’
+
+     0K                                                       100% 1.04M=0s
+
+2019-10-04 00:17:49 (1.04 MB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
+
+--2019-10-04 00:17:49--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.117|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18764 (18K) [application/javascript]
+Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
+
+     0K .......... ........                                   100% 18.2M=0.001s
+
+2019-10-04 00:17:49 (18.2 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
+
+--2019-10-04 00:17:49--  https://apod.nasa.gov/apod/image/1902/FoxFur_25percent.jpg
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1148690 (1.1M) [image/jpeg]
+Saving to: ‘apod.nasa.gov/apod/image/1902/FoxFur_25percent.jpg’
+
+     0K .......... .......... .......... .......... ..........  4% 81.1K 13s
+    50K .......... .......... .......... .......... ..........  8%  162K 9s
+   100K .......... .......... .......... .......... .......... 13%  164K 8s
+   150K .......... .......... .......... .......... .......... 17%  163K 7s
+   200K .......... .......... .......... .......... .......... 22%  163K 6s
+   250K .......... .......... .......... .......... .......... 26% 11.3M 5s
+   300K .......... .......... .......... .......... .......... 31%  163K 5s
+   350K .......... .......... .......... .......... .......... 35%  164K 4s
+   400K .......... .......... .......... .......... .......... 40%  163K 4s
+   450K .......... .......... .......... .......... .......... 44% 40.8K 5s
+   500K .......... .......... .......... .......... .......... 49% 88.8K 5s
+   550K .......... .......... .......... .......... .......... 53%  204K 4s
+   600K .......... .......... .......... .......... .......... 57% 79.9K 4s
+   650K .......... .......... .......... .......... .......... 62%  163K 3s
+   700K .......... .......... .......... .......... .......... 66%  162K 3s
+   750K .......... .......... .......... .......... .......... 71%  156K 3s
+   800K .......... .......... .......... .......... .......... 75%  170K 2s
+   850K .......... .......... .......... .......... .......... 80%  207K 2s
+   900K .......... .......... .......... .......... .......... 84%  185K 1s
+   950K .......... .......... .......... .......... .......... 89%  206K 1s
+  1000K .......... .......... .......... .......... .......... 93%  202K 1s
+  1050K .......... .......... .......... .......... .......... 98%  207K 0s
+  1100K .......... .......... .                               100% 75.2K=8.2s
+
+2019-10-04 00:17:59 (137 KB/s) - ‘apod.nasa.gov/apod/image/1902/FoxFur_25percent.jpg’ saved [1148690/1148690]
+
+FINISHED --2019-10-04 00:17:59--
+Total wall clock time: 14s
+Downloaded: 4 files, 1.1M in 8.2s (140 KB/s)
+Converting links in apod.nasa.gov/apod/ap190207.html... 2-18
+Converted links in 1 files in 0.002 seconds.
+ap190207.html:48: HTML parser error : htmlParseEntityRef: no name
+<b> Image Credit &
+                  ^
+ap190207.html:123: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap190207.html:125: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap190207.html:136: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+ap190207.html:48: HTML parser error : htmlParseEntityRef: no name
+<b> Image Credit &
+                  ^
+ap190207.html:123: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap190207.html:125: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap190207.html:136: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+mv: rename *.jpeg to Fox Fur, Unicorn, and Christmas Tree.jpeg: No such file or directory
+mv: rename *.png to Fox Fur, Unicorn, and Christmas Tree.png: No such file or directory
