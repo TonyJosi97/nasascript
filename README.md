@@ -1,6 +1,6 @@
 # nasascript
 
-# HELP:
+# Documentation:
         # sh nasa.sh date[ in yyyy-mm--dd format ] --> Downloads image of the given date
         # sh nasa.sh -d date[ in yyyy-mm--dd format ] --> Downloads the title, explanation text and credits
         # sh nasa.sh -d date[ in yyyy-mm--dd format ] -n [ name ] --> Downloads the title, explanation text 
