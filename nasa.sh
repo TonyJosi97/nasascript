@@ -24,7 +24,15 @@ scriptCore() {
     echo
 
     mv apod.nasa.gov/apod/${htmlFile} .
-    mv apod.nasa.gov/apod/image/${myMonth}/* .
+    if mv apod.nasa.gov/apod/image/${myMonth}/* . >>../script.log 2>&1; then
+        echo "Good"  >>../script.log 2>&1
+    else
+        echo "No Image found on the specified date - "${1}" ... ... ... ___SKIPPING THAT DATE!!!___"
+        cd ..
+        rm -rf ${myDate}
+        return
+    fi
+
     mv ${htmlFile} ${newHtmlFile}
 
     echo "cat //html/body/p" | xmllint --html --shell ${newHtmlFile} 2>>../script.log | sed '/^\/ >/d' | sed 's/<[^>]*.//g' | awk '
@@ -69,18 +77,18 @@ scriptCore() {
         echo 'Downloading --> '${imageNameJPG}'  ...'
     else
         echo 'TITLE: '${title}
-        echo
+        echo >>../script.log 2>&1
     fi
 
     if [ "$2" == "" ]; then
-        echo 
+        echo >>../script.log 2>&1
     else
         cat extract4.txt
         echo
     fi
 
     if [ "$2" == "" ]; then
-        echo 
+        echo  >>../script.log 2>&1
     else
         echo "cat //html/body/center" | xmllint --html --shell ${newHtmlFile} 2>>../script.log | sed '/^\/ >/d' | sed 's/<[^>]*.//g' | awk '
         $1=$1' > credit1.txt
@@ -94,7 +102,7 @@ scriptCore() {
     fi
 
     if [ "$3" == "" ]; then
-        echo 
+        echo >>../script.log 2>&1 
     else
         imageNameJPG=${3}'.jpg'
         for file in *.jpg
@@ -138,10 +146,11 @@ else
             posted between the two dates [MAX = 10 days]"
     echo
 fi
+echo
 echo 'Finished.'
 
-tail -n 500 script.log > newLogfile
-rm script.log
+tail -n 500 script.log > newLogfile >>../script.log 2>&1
+rm script.log >>../script.log 2>&1
 mv newLogfile script.log
 
 echo
