@@ -129,12 +129,72 @@ scriptCore() {
 
 echo
 echo 'Connecting to nasa.gov...'
+
 if [ "$1" == "-d" -a "$3" == "-n" ]; then
     scriptCore $2 _ $4
+
 elif [ "$1" == "-d" ]; then
     scriptCore $2 _
+
+elif [ "$1" == "-r" ]; then
+
+    strdat1=$2
+    arrDat1=(${strdat1//-/ })
+
+    year1=${arrDat1[0]}
+    year1=${year1:2:3}
+    month1=${arrDat1[1]}
+    day1=${arrDat1[2]}
+    myDate1=${year1}${month1}${day1}
+
+    strdat2=$3
+    arrDat2=(${strdat2//-/ })
+
+    year2=${arrDat2[0]}
+    year2=${year2:2:3}
+    month2=${arrDat2[1]}
+    day2=${arrDat2[2]}
+    myDate2=${year2}${month2}${day2}
+
+    cnt1=1
+    while :
+    do
+    today=$(date -v -${cnt1}d +%Y%m%d)
+    today=${today:2:8}
+    if [ $today -eq $myDate1 ] 
+    then
+        break
+    fi
+    cnt1=$(($cnt1+1))
+    done
+
+    #echo $cnt1
+
+    cnt2=1
+    while :
+    do
+    today=$(date -v -${cnt2}d +%Y%m%d)
+    today=${today:2:8}
+    if [ $today -eq $myDate2 ] 
+    then
+        break
+    fi
+    cnt2=$(($cnt2+1))
+    done
+
+    #echo $cnt2
+
+    echo
+    for ((diff=$cnt1;diff>=$cnt2;diff--));
+    do
+        today=$(date -v -${diff}d +%Y-%m-%d)
+        echo "Downloading image on --> "$today
+        scriptCore $today
+    done
+
 elif [ "$1" != "" ]; then
     scriptCore $1
+
 else
     echo
     echo "HELP:
@@ -142,15 +202,16 @@ else
         # sh nasa.sh -d date[ in yyyy-mm--dd format ] --> Downloads the title, explanation text and credits
         # sh nasa.sh -d date[ in yyyy-mm--dd format ] -n [ name ] --> Downloads the title, explanation text 
             and credits, and saves the image in the given [ name ]
-        # sh nasa.sh -r date1[ in yyyy-mm--dd format ] date2[ in yyyy-mm--dd format ] --> Download all images 
+        # sh nasa.sh -r date1[ old date in yyyy-mm--dd format ] date2[ new in yyyy-mm--dd format ] --> Download all images 
             posted between the two dates [MAX = 10 days]"
     echo
 fi
+
 echo
 echo 'Finished.'
 
-tail -n 500 script.log > newLogfile >>../script.log 2>&1
-rm script.log >>../script.log 2>&1
+tail -n 500 script.log > newLogfile
+rm script.log 
 mv newLogfile script.log
 
 echo
