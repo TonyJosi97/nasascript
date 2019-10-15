@@ -238,3 +238,258 @@ mv: rename *.png to Williamina Fleming's Triangular Wisp.png: No such file or di
 
 
 
+--2019-10-15 21:07:46--  https://apod.nasa.gov/apod/ap191002.html
+Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘apod.nasa.gov/apod/ap191002.html’
+
+     0K ....                                                   7.98M=0.001s
+
+2019-10-15 21:07:47 (7.98 MB/s) - ‘apod.nasa.gov/apod/ap191002.html’ saved [4521]
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:07:47--  https://dap.digitalgov.gov/robots.txt
+Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 13.249.210.74, 13.249.210.117, 13.249.210.107, ...
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-10-15 21:07:48 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:07:48--  https://apod.nasa.gov/robots.txt
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23 [text/plain]
+Saving to: ‘apod.nasa.gov/robots.txt’
+
+     0K                                                       100%  936K=0s
+
+2019-10-15 21:07:50 (936 KB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
+
+--2019-10-15 21:07:50--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18764 (18K) [application/javascript]
+Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
+
+     0K .......... ........                                   100% 25.1M=0.001s
+
+2019-10-15 21:07:50 (25.1 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
+
+--2019-10-15 21:07:50--  https://apod.nasa.gov/apod/image/1909/McloudsCarina_Hubble_1080.jpg
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 92336 (90K) [image/jpeg]
+Saving to: ‘apod.nasa.gov/apod/image/1909/McloudsCarina_Hubble_1080.jpg’
+
+     0K .......... .......... .......... .......... .......... 55% 84.6K 0s
+    50K .......... .......... .......... ..........           100%  131K=0.9s
+
+2019-10-15 21:07:52 (100 KB/s) - ‘apod.nasa.gov/apod/image/1909/McloudsCarina_Hubble_1080.jpg’ saved [92336/92336]
+
+FINISHED --2019-10-15 21:07:52--
+Total wall clock time: 6.5s
+Downloaded: 4 files, 113K in 0.9s (126 KB/s)
+Converting links in apod.nasa.gov/apod/ap191002.html... 2-16
+Converted links in 1 files in 0.002 seconds.
+mv: rename apod.nasa.gov/apod/image/1910/* to ./*: No such file or directory
+--2019-10-15 21:07:52--  https://apod.nasa.gov/apod/ap191003.html
+Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘apod.nasa.gov/apod/ap191003.html’
+
+     0K ....                                                   8.40M=0.001s
+
+2019-10-15 21:07:54 (8.40 MB/s) - ‘apod.nasa.gov/apod/ap191003.html’ saved [4825]
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:07:54--  https://dap.digitalgov.gov/robots.txt
+Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 13.249.210.74, 13.249.210.117, 13.249.210.107, ...
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-10-15 21:07:55 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:07:55--  https://apod.nasa.gov/robots.txt
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23 [text/plain]
+Saving to: ‘apod.nasa.gov/robots.txt’
+
+     0K                                                       100% 1.10M=0s
+
+2019-10-15 21:07:56 (1.10 MB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
+
+--2019-10-15 21:07:56--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18764 (18K) [application/javascript]
+Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
+
+     0K .......... ........                                   100% 5.47M=0.003s
+
+2019-10-15 21:07:56 (5.47 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
+
+--2019-10-15 21:07:56--  https://apod.nasa.gov/apod/image/1910/M33-Subaru-Gendler-1024.jpg
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 437210 (427K) [image/jpeg]
+Saving to: ‘apod.nasa.gov/apod/image/1910/M33-Subaru-Gendler-1024.jpg’
+
+     0K .......... .......... .......... .......... .......... 11%  195K 2s
+    50K .......... .......... .......... .......... .......... 23% 42.7K 5s
+   100K .......... .......... .......... .......... .......... 35% 80.2K 4s
+   150K .......... .......... .......... .......... .......... 46%  216K 3s
+   200K .......... .......... .......... .......... .......... 58% 83.7K 2s
+   250K .......... .......... .......... .......... .......... 70%  169K 1s
+   300K .......... .......... .......... .......... .......... 81%  164K 1s
+   350K .......... .......... .......... .......... .......... 93%  164K 0s
+   400K .......... .......... ......                          100% 88.8K=4.1s
+
+2019-10-15 21:08:01 (104 KB/s) - ‘apod.nasa.gov/apod/image/1910/M33-Subaru-Gendler-1024.jpg’ saved [437210/437210]
+
+FINISHED --2019-10-15 21:08:01--
+Total wall clock time: 8.8s
+Downloaded: 4 files, 450K in 4.1s (110 KB/s)
+Converting links in apod.nasa.gov/apod/ap191003.html... 2-14
+Converted links in 1 files in 0.003 seconds.
+Good
+ap191003.html:123: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191003.html:125: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191003.html:136: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+ap191003.html:123: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191003.html:125: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191003.html:136: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+mv: rename *.jpeg to The Hydrogen Clouds of M33.jpeg: No such file or directory
+mv: rename *.png to The Hydrogen Clouds of M33.png: No such file or directory
+
+
+
+--2019-10-15 21:08:01--  https://apod.nasa.gov/apod/ap191004.html
+Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘apod.nasa.gov/apod/ap191004.html’
+
+     0K ....                                                   7.88M=0.001s
+
+2019-10-15 21:08:03 (7.88 MB/s) - ‘apod.nasa.gov/apod/ap191004.html’ saved [4405]
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:08:03--  https://dap.digitalgov.gov/robots.txt
+Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 13.249.210.74, 13.249.210.117, 13.249.210.107, ...
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-10-15 21:08:04 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2019-10-15 21:08:04--  https://apod.nasa.gov/robots.txt
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23 [text/plain]
+Saving to: ‘apod.nasa.gov/robots.txt’
+
+     0K                                                       100%  576K=0s
+
+2019-10-15 21:08:05 (576 KB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
+
+--2019-10-15 21:08:05--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|13.249.210.74|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18764 (18K) [application/javascript]
+Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
+
+     0K .......... ........                                   100% 13.9M=0.001s
+
+2019-10-15 21:08:05 (13.9 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
+
+--2019-10-15 21:08:05--  https://apod.nasa.gov/apod/image/1910/PIA23180_raw.gif
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1773762 (1.7M) [image/gif]
+Saving to: ‘apod.nasa.gov/apod/image/1910/PIA23180_raw.gif’
+
+     0K .......... .......... .......... .......... ..........  2%  210K 8s
+    50K .......... .......... .......... .......... ..........  5% 22.7K 40s
+   100K .......... .......... .......... .......... ..........  8% 54.3K 35s
+   150K .......... .......... .......... .......... .......... 11%  107K 29s
+   200K .......... .......... .......... .......... .......... 14% 78.7K 26s
+   250K .......... .......... .......... .......... .......... 17%  161K 23s
+   300K .......... .......... .......... .......... .......... 20%  158K 20s
+   350K .......... .......... .......... .......... .......... 23% 99.0K 19s
+   400K .......... .......... .......... .......... .......... 25%  121K 17s
+   450K .......... .......... .......... .......... .......... 28% 79.5K 16s
+   500K .......... .......... .......... .......... .......... 31%  211K 15s
+   550K .......... .......... .......... .......... .......... 34%  217K 13s
+   600K .......... .......... .......... .......... .......... 37%  219K 12s
+   650K .......... .......... .......... .......... .......... 40%  220K 11s
+   700K .......... .......... .......... .......... .......... 43%  214K 10s
+   750K .......... .......... .......... .......... .......... 46%  217K 9s
+   800K .......... .......... .......... .......... .......... 49%  220K 9s
+   850K .......... .......... .......... .......... .......... 51%  219K 8s
+   900K .......... .......... .......... .......... .......... 54%  211K 7s
+   950K .......... .......... .......... .......... .......... 57%  220K 7s
+  1000K .......... .......... .......... .......... .......... 60%  220K 6s
+  1050K .......... .......... .......... .......... .......... 63%  275K 5s
+  1100K .......... .......... .......... .......... .......... 66%  226K 5s
+  1150K .......... .......... .......... .......... .......... 69%  206K 4s
+  1200K .......... .......... .......... .......... .......... 72%  960K 4s
+  1250K .......... .......... .......... .......... .......... 75%  224K 3s
+  1300K .......... .......... .......... .......... .......... 77%  265K 3s
+  1350K .......... .......... .......... .......... .......... 80%  209K 2s
+  1400K .......... .......... .......... .......... .......... 83%  694K 2s
+  1450K .......... .......... .......... .......... .......... 86%  219K 2s
+  1500K .......... .......... .......... .......... .......... 89%  235K 1s
+  1550K .......... .......... .......... .......... .......... 92%  258K 1s
+  1600K .......... .......... .......... .......... .......... 95%  215K 1s
+  1650K .......... .......... .......... .......... .......... 98%  938K 0s
+  1700K .......... .......... .......... ..                   100%  181K=12s
+
+2019-10-15 21:08:18 (148 KB/s) - ‘apod.nasa.gov/apod/image/1910/PIA23180_raw.gif’ saved [1773762/1773762]
+
+FINISHED --2019-10-15 21:08:18--
+Total wall clock time: 17s
+Downloaded: 4 files, 1.7M in 12s (150 KB/s)
+Converting links in apod.nasa.gov/apod/ap191004.html... 3-12
+Converted links in 1 files in 0.002 seconds.
+Good
+ap191004.html:112: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191004.html:114: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191004.html:125: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+ap191004.html:112: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191004.html:114: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191004.html:125: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+mv: rename *.jpg to InSight on a Cloudy Day.jpg: No such file or directory
+mv: rename *.jpeg to InSight on a Cloudy Day.jpeg: No such file or directory
+mv: rename *.png to InSight on a Cloudy Day.png: No such file or directory
+
+
+
