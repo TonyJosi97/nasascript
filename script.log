@@ -1,85 +1,3 @@
-2019-10-10 00:04:29 (802 KB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
-
---2019-10-10 00:04:29--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
-Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|99.86.19.36|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 18764 (18K) [application/javascript]
-Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
-
-     0K .......... ........                                   100% 15.8M=0.001s
-
-2019-10-10 00:04:29 (15.8 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
-
---2019-10-10 00:04:29--  https://apod.nasa.gov/apod/image/1711/NGC1055-ESO-Crop1024_1.jpg
-Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 200164 (195K) [image/jpeg]
-Saving to: ‘apod.nasa.gov/apod/image/1711/NGC1055-ESO-Crop1024_1.jpg’
-
-     0K .......... .......... .......... .......... .......... 25% 27.1K 5s
-    50K .......... .......... .......... .......... .......... 51% 40.7K 3s
-   100K .......... .......... .......... .......... .......... 76% 54.3K 1s
-   150K .......... .......... .......... .......... .....     100% 74.0K=4.6s
-
-2019-10-10 00:04:35 (42.4 KB/s) - ‘apod.nasa.gov/apod/image/1711/NGC1055-ESO-Crop1024_1.jpg’ saved [200164/200164]
-
-FINISHED --2019-10-10 00:04:35--
-Total wall clock time: 9.1s
-Downloaded: 4 files, 218K in 4.6s (47.4 KB/s)
-Converting links in apod.nasa.gov/apod/ap171109.html... 2-17
-Converted links in 1 files in 0.002 seconds.
-Good
-ap171109.html:46: HTML parser error : htmlParseEntityRef: no name
-<b> Image Credit &
-                  ^
-ap171109.html:113: HTML parser error : htmlParseEntityRef: no name
-<b> Authors & editors: </b>
-             ^
-ap171109.html:115: HTML parser error : htmlParseEntityRef: no name
-(<a href="http://www.phy.mtu.edu/">MTU</a>) &
-                                             ^
-ap171109.html:126: HTML parser error : htmlParseEntityRef: no name
-<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
-        ^
-ap171109.html:46: HTML parser error : htmlParseEntityRef: no name
-<b> Image Credit &
-                  ^
-ap171109.html:113: HTML parser error : htmlParseEntityRef: no name
-<b> Authors & editors: </b>
-             ^
-ap171109.html:115: HTML parser error : htmlParseEntityRef: no name
-(<a href="http://www.phy.mtu.edu/">MTU</a>) &
-                                             ^
-ap171109.html:126: HTML parser error : htmlParseEntityRef: no name
-<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
-        ^
-mv: rename *.jpeg to NGC 1055 Close-up.jpeg: No such file or directory
-mv: rename *.png to NGC 1055 Close-up.png: No such file or directory
-
-
-
---2019-10-10 00:04:35--  https://apod.nasa.gov/apod/ap171110.html
-Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
-Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘apod.nasa.gov/apod/ap171110.html’
-
-     0K ....                                                   8.32M=0.001s
-
-2019-10-10 00:04:36 (8.32 MB/s) - ‘apod.nasa.gov/apod/ap171110.html’ saved [4670]
-
-Loading robots.txt; please ignore errors.
---2019-10-10 00:04:36--  https://dap.digitalgov.gov/robots.txt
-Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 99.86.19.36, 99.86.19.107, 99.86.19.101, ...
-Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|99.86.19.36|:443... connected.
-HTTP request sent, awaiting response... 403 Forbidden
-2019-10-10 00:04:37 ERROR 403: Forbidden.
-
-Loading robots.txt; please ignore errors.
---2019-10-10 00:04:37--  https://apod.nasa.gov/robots.txt
-Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
-HTTP request sent, awaiting response... 200 OK
 Length: 23 [text/plain]
 Saving to: ‘apod.nasa.gov/robots.txt’
 
@@ -472,6 +390,88 @@ Saving to: ‘apod.nasa.gov/apod/image/1910/ClayCache_Curiosity_960.jpg’
 FINISHED --2019-10-29 22:09:06--
 Total wall clock time: 14s
 Downloaded: 4 files, 261K in 5.4s (48.1 KB/s)
+Converting links in apod.nasa.gov/apod/ap191029.html... 2-14
+Converted links in 1 files in 0.002 seconds.
+Good
+ap191029.html:104: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191029.html:106: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191029.html:117: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+ap191029.html:104: HTML parser error : htmlParseEntityRef: no name
+<b> Authors & editors: </b>
+             ^
+ap191029.html:106: HTML parser error : htmlParseEntityRef: no name
+(<a href="http://www.phy.mtu.edu/">MTU</a>) &
+                                             ^
+ap191029.html:117: HTML parser error : htmlParseEntityRef: no name
+<br><b>&</b> <a href="http://www.mtu.edu/">Michigan Tech. U.</a><br>
+        ^
+mv: rename *.jpeg to Curiosity Rover Finds a Clay Cache on Mars.jpeg: No such file or directory
+mv: rename *.png to Curiosity Rover Finds a Clay Cache on Mars.png: No such file or directory
+
+
+
+--2019-10-29 22:12:12--  https://apod.nasa.gov/apod/ap191029.html
+Resolving apod.nasa.gov (apod.nasa.gov)... 129.164.179.22
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘apod.nasa.gov/apod/ap191029.html’
+
+     0K ....                                                   8.24M=0.001s
+
+2019-10-29 22:12:13 (8.24 MB/s) - ‘apod.nasa.gov/apod/ap191029.html’ saved [4777]
+
+Loading robots.txt; please ignore errors.
+--2019-10-29 22:12:13--  https://dap.digitalgov.gov/robots.txt
+Resolving dap.digitalgov.gov (dap.digitalgov.gov)... 54.230.71.65, 54.230.71.109, 54.230.71.128, ...
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|54.230.71.65|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-10-29 22:12:15 ERROR 403: Forbidden.
+
+Loading robots.txt; please ignore errors.
+--2019-10-29 22:12:15--  https://apod.nasa.gov/robots.txt
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23 [text/plain]
+Saving to: ‘apod.nasa.gov/robots.txt’
+
+     0K                                                       100% 1021K=0s
+
+2019-10-29 22:12:17 (1021 KB/s) - ‘apod.nasa.gov/robots.txt’ saved [23/23]
+
+--2019-10-29 22:12:17--  https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA
+Connecting to dap.digitalgov.gov (dap.digitalgov.gov)|54.230.71.65|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18764 (18K) [application/javascript]
+Saving to: ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’
+
+     0K .......... ........                                   100% 15.4M=0.001s
+
+2019-10-29 22:12:17 (15.4 MB/s) - ‘dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA’ saved [18764/18764]
+
+--2019-10-29 22:12:17--  https://apod.nasa.gov/apod/image/1910/ClayCache_Curiosity_960.jpg
+Connecting to apod.nasa.gov (apod.nasa.gov)|129.164.179.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 243574 (238K) [image/jpeg]
+Saving to: ‘apod.nasa.gov/apod/image/1910/ClayCache_Curiosity_960.jpg’
+
+     0K .......... .......... .......... .......... .......... 21% 54.0K 3s
+    50K .......... .......... .......... .......... .......... 42% 44.6K 3s
+   100K .......... .......... .......... .......... .......... 63% 48.4K 2s
+   150K .......... .......... .......... .......... .......... 84% 86.4K 1s
+   200K .......... .......... .......... .......              100%  123K=4.0s
+
+2019-10-29 22:12:22 (60.0 KB/s) - ‘apod.nasa.gov/apod/image/1910/ClayCache_Curiosity_960.jpg’ saved [243574/243574]
+
+FINISHED --2019-10-29 22:12:22--
+Total wall clock time: 9.5s
+Downloaded: 4 files, 261K in 4.0s (65.7 KB/s)
 Converting links in apod.nasa.gov/apod/ap191029.html... 2-14
 Converted links in 1 files in 0.002 seconds.
 Good
